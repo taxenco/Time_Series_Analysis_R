@@ -116,4 +116,35 @@ Accuracy measures for a forecast model
 <img src="./pics/methods-Time series linear model with seasonality plot.PNG" alt="methods-Time series linear model with seasonality"/>
 
 * methods-Holt-Winters' Seasonal method
-<img src="./pics/methods-Time series linear model with seasonality.PNG" alt="methods-Time series linear model with seasonality
+<img src="./pics/methods-Time series linear model with seasonality.PNG" alt="methods-Time series linear model with seasonality"/>
+<img src="./pics/methods-Time series linear model with seasonality plot" alt="methods-Time series linear model with seasonality"/>
+ 
+
+There are different error measures for the fit of each time-series forecast the model. Which one to choose is up to the user. A common approach is to use the RMSE, which a classic method and very popular. In this case, the best mode would be Time-series linear model with seasonality.
+
+# Conclusion
+
+Time Series Analysis is an excellent method to analyse and predict trends. In additions is very simple to implement and to understand the results.
+The implementation of the Time Series Analysis has achieved its purpose of illustrating the process of analysing the trends and forecasting.
+
+
+# References
+
+* 1 - https://www.statisticssolutions.com/time-series-analysis/
+* 2 - MSc Data science notes, Salford University. Time Series
+* 3- https://pkg.robjhyndman.com/forecast/reference/accuracy.html
+
+# Built With
+
+- Linux - Operating system
+- R programming language
+- CSV files
+- Forecast Package
+
+# Authors
+
+Carlos Beltran.
+
+# Acknowledgements
+
+The author would like to thank Salford University.
