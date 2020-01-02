@@ -24,8 +24,7 @@ This project will implement Time series analysis on a Tourism dataset to underst
 
 # Theory on Time Series Analysis
 
-
-Time series analysis is a statistical technique that deals with time series data, or trend analysis.  Time series data means that data is in a series of particular time periods or intervals.  
+Time series analysis is a statistical technique that deals with time series data, or trend analysis. Time series data means that data is in a series of particular time periods or intervals.
 
 Time Series Analysis is used for many applications such as:
 
@@ -62,9 +61,9 @@ The dataset is made 5 decision variables.
 
 · Year
 
-·  Month
+· Month
 
-·  Tourists
+· Tourists
 
 # Data cleaning
 
@@ -72,13 +71,10 @@ The dataset is already cleaned, and it is ready for performing the decision tree
 
 # Calculating Time Series Analysis
 
-
 This section will show how to calculate Time Series Analysis.
 
- 
 Let ‘s start inspecting the dataset:
 
- 
 Five-number summary
 
 <img src="./pics/summary.PNG" alt="summary"/>
@@ -86,14 +82,13 @@ Five-number summary
 
 We filter data that only contains UK tourist’s data and we will split it in 2 parts. The first part will be the training dataset that will contain the years 2010,2011,2012,2013,2014 and 2015. The validation dataset will just contain 2016. After this will convert the both datasets in time series objects.
 
- 
 Seasonality
 
 <img src="./pics/q.PNG" alt="quarterly"/>
 <img src="./pics/descom.PNG" alt="decomposition"/>
 
- 
 Accuracy measures for a forecast model
+
 - ME: Mean Error
 - RMSE: Root Mean Squared Error
 - MAE: Mean Absolute Error
@@ -101,24 +96,22 @@ Accuracy measures for a forecast model
 - MAPE: Mean Absolute Percentage Error
 - MASE: Mean Absolute Scaled Error
 - ACF1: Autocorrelation of errors at lag 1.
- 
 
 * methods-Mean forecasting:
-<img src="./pics/Mean forecasting.PNG" alt="Mean forecasting"/>
-<img src="./pics/methods-Mean plot.PNG" alt="methods-Mean plot"/>
+  <img src="./pics/Mean forecasting.PNG" alt="Mean forecasting"/>
+  <img src="./pics/methods-Mean plot.PNG" alt="methods-Mean plot"/>
 
 * methods-Time series linear model
-<img src="./pics/methods-Time series linear.PNG" alt="methods-Time series"/>
-<img src="./pics/methods-Time series linear plot.PNG" alt="methods-Time series linear"/>
+  <img src="./pics/methods-Time series linear.PNG" alt="methods-Time series"/>
+  <img src="./pics/methods-Time series linear plot.PNG" alt="methods-Time series linear"/>
 
 * methods-Time series linear model with seasonality
-<img src="./pics/methods-Time series linear model with seasonality.PNG" alt="methods-Time series linear model with seasonality"/>
-<img src="./pics/methods-Time series linear model with seasonality plot.PNG" alt="methods-Time series linear model with seasonality"/>
+  <img src="./pics/methods-Time series linear model with seasonality.PNG" alt="methods-Time series linear model with seasonality"/>
+  <img src="./pics/methods-Time series linear model with seasonality plot.PNG" alt="methods-Time series linear model with seasonality"/>
 
 * methods-Holt-Winters' Seasonal method
-<img src="./pics/methods-Time series linear model with seasonality.PNG" alt="methods-Time series linear model with seasonality"/>
-<img src="./pics/methods-Time series linear model with seasonality plot" alt="methods-Time series linear model with seasonality"/>
- 
+  <img src="./pics/methods-Time series linear model with seasonality.PNG" alt="methods-Time series linear model with seasonality"/>
+  <img src="./pics/methods-Time series linear model with seasonality plot.PNG" alt="methods-Time series linear model with seasonality"/>
 
 There are different error measures for the fit of each time-series forecast the model. Which one to choose is up to the user. A common approach is to use the RMSE, which a classic method and very popular. In this case, the best mode would be Time-series linear model with seasonality.
 
@@ -127,12 +120,11 @@ There are different error measures for the fit of each time-series forecast the 
 Time Series Analysis is an excellent method to analyse and predict trends. In additions is very simple to implement and to understand the results.
 The implementation of the Time Series Analysis has achieved its purpose of illustrating the process of analysing the trends and forecasting.
 
-
 # References
 
-* 1 - https://www.statisticssolutions.com/time-series-analysis/
-* 2 - MSc Data science notes, Salford University. Time Series
-* 3- https://pkg.robjhyndman.com/forecast/reference/accuracy.html
+- 1 - https://www.statisticssolutions.com/time-series-analysis/
+- 2 - MSc Data science notes, Salford University. Time Series
+- 3- https://pkg.robjhyndman.com/forecast/reference/accuracy.html
 
 # Built With
 
